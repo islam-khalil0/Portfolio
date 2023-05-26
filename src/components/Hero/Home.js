@@ -1,9 +1,6 @@
 import React from "react"
 import "./Home.css"
 import hero from "../Pic/mee.png"
-import skill1 from "../Pic/skill1.png"
-import skill2 from "../Pic/skill2.png"
-import skill3 from "../Pic/skill3.png"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
