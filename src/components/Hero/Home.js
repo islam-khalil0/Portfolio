@@ -25,7 +25,7 @@ const Home = () => {
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
-                <div className='button'>
+                <div className='button' style={{display:"flex" , flexDirection : "row" ,}}>
                   <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
                   </button>
@@ -40,11 +40,7 @@ const Home = () => {
               
             </div>
           </div>
-          <div className='right'>
-            <div className='right_img'>
-              <img src={hero} alt='' style={{width: '18rem' ,}}/>
-            </div>
-          </div>
+         
         </div>
       </section>
     </>

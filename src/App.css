@@ -14,7 +14,9 @@ body {
 .container {
   max-width: 95%;
   margin: auto;
+  padding: 10px;
 }
+
 .d_flex {
   display: flex;
   justify-content: space-between;
@@ -50,12 +52,15 @@ button {
   color: #000;
   transition: 0.5s;
 }
+
 .btn_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  width: 100%;
 }
+
 .btn_shadow:hover {
-  background: #ff014f;
+  background: #3c3e41;
   color: white;
   transform: translateY(-10px);
 }
@@ -79,7 +84,7 @@ button {
   margin: 50px 0 50px 0;
 }
 .heading h4 {
-  color: #ff014f;
+  color: #3c3e41;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -90,11 +95,17 @@ button {
 h1 {
   color: #3c3e41;
 }
+
+.content {
+  width: 100%;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 35px;
+  grid-gap: 2rem;
 }
+
 p {
   color: #3c3e41;
 }
@@ -121,12 +132,18 @@ footer p {
   margin-top: 30px;
 }
 /*----------Footer---------*/
-@media (max-width: 768px) {
+@media (max-width: 1210px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
   .left,
   .right {
     width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
 }

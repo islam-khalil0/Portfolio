@@ -38,7 +38,7 @@ const Card = (props) => {
           <div onClick={toggleModal} className='overlay'></div>
           <div className='modal-content d_flex'>
             <div className='modal-img left'>
-              <img src={props.image} alt='' />
+              <img src={props.image} alt=''  style={{objectFit:"cover"}}/>
             </div>
             <div className='modal-text right'>
               <span>Featured - Design</span>
