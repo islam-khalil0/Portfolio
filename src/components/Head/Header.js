@@ -14,8 +14,9 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='container d_flex'>
-          <div className='logo'>
-            <img src={logo} alt='' />
+          <div className='logo' style={{display:"flex" , gap:'1rem'}}>
+            <img src={logo} alt=''style={{width:'4rem' , height : "4rem"}} />
+            <p>I Khalil</p>
           </div>
 
           <div className='navlink'>
