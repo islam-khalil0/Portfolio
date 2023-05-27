@@ -5,9 +5,9 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [data, setData] = useState({
-    fullname: "",
+    user_name: "",
     phone: "",
-    email: "",
+    user_email: "",
     subject: "",
     message: "",
   });
