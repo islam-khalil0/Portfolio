@@ -60,8 +60,8 @@ const Contact = () => {
       <section className="Contact" id="contact">
         <div className="container top">
           <div className="heading text-center">
-            <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h4 style={{fontSize:'.8rem'}}>CONTACT</h4>
+            <h1 style={{fontSize:'2rem'}}>Contact With Me</h1>
           </div>
 
           <div className="content d_flex">
@@ -71,25 +71,25 @@ const Contact = () => {
                   <img src={contact1} alt="" />
                 </div>
                 <div className="details">
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
+                  <h1>nice to meet you</h1>
+                 
                   <p>
-                    I am available for freelance work. Connect with me via and
+                    Connect with me via and
                     call in to my account.
                   </p>{" "}
                   <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <p>Phone: +201123526875</p>
+                  <p>Email: eslamkhalil851@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">
                       <i className="fab fa-facebook-f"></i>
                     </button>
                     <button className="btn_shadow">
-                      <i className="fab fa-instagram"></i>
+                      <i className="fab fa-linkedin"></i>
                     </button>
                     <button className="btn_shadow">
-                      <i className="fab fa-twitter"></i>
+                      <i className="fab fa-github"></i>
                     </button>
                   </div>
                 </div>
@@ -102,6 +102,7 @@ const Contact = () => {
                   <div className="input row">
                     <span>YOUR NAME</span>
                     <input
+                    style={{borderRadius:'.5rem'}}
                       type="text"
                       name="fullname"
                       value={data.fullname}
@@ -111,6 +112,7 @@ const Contact = () => {
                   <div className="input row">
                     <span>PHONE NUMBER </span>
                     <input
+                    style={{borderRadius:'.5rem'}}
                       type="number"
                       name="phone"
                       value={data.phone}
@@ -121,6 +123,7 @@ const Contact = () => {
                 <div className="input">
                   <span>EMAIL </span>
                   <input
+                  style={{borderRadius:'.5rem'}}
                     type="email"
                     name="email"
                     value={data.email}
@@ -130,6 +133,7 @@ const Contact = () => {
                 <div className="input">
                   <span>SUBJECT </span>
                   <input
+                  style={{borderRadius:'.5rem'}}
                     type="text"
                     name="subject"
                     value={data.subject}
@@ -139,6 +143,7 @@ const Contact = () => {
                 <div className="input">
                   <span>YOUR MESSAGE </span>
                   <textarea
+                  style={{borderRadius:'.5rem'}}
                     cols="30"
                     rows="10"
                     name="message"

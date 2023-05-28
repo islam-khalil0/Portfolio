@@ -9,13 +9,13 @@ const Portfolio = () => {
       <section className='Portfolio top' id='portfolio'>
         <div className='container'>
           <div className='heading text-center '>
-            <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Portfolio</h1>
+            <h4 style={{fontSize:'.8rem'}}>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
+            <h1 style={{fontSize:'2.5rem'}}>My Portfolio</h1>
           </div>
 
           <div className='content grid'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} gitHub={value.gitHub} liveSite={value.liveSite} />
             })}
 
             {/*<div className='box btn_shadow '>

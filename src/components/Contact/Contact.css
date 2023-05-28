@@ -44,9 +44,7 @@
   .left .box .img{
     overflow: hidden;
   }
-  .left .box .img img {
-    
-  }
+
 
   @media (max-width: 768px) {
     .Contact .d_flex {

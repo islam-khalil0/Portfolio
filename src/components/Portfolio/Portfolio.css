@@ -111,11 +111,11 @@
     margin-bottom: 20px;
     line-height: 25px;
   }
-  .modal-text button {
+  .modal-text a {
     margin-right: 20px;
     color: #ff014f;
   }
-  .modal-text button i {
+  .modal-text a i {
     margin-left: 10px;
   }
   .modal-text button.close-modal {

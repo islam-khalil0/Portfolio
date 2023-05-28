@@ -35,13 +35,10 @@ const Header = () => {
                 <a href='#resume'>resume</a>
               </li>
               <li>
-                <a href='#clients'>clients</a>
-              </li>
-              <li>
                 <a href='#contact'>contact</a>
               </li>
               <li>
-                <button className='home-btn'>BUY NOW</button>
+                <button className='home-btn'> <a href="#contact" style={{color:'black' }}>let's talk</a></button>
               </li>
             </ul>
 

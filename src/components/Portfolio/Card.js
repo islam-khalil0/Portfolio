@@ -3,6 +3,7 @@ import React, { useState } from "react"
 const Card = (props) => {
   const [modal, setModal] = useState(false)
 
+
   const toggleModal = () => {
     setModal(!modal)
   }
@@ -46,12 +47,12 @@ const Card = (props) => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
               <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
               <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
+                <a className='btn_shadow' href={props.gitHub} target="_blank">
+                  GitHub Rebo<i class='fas fa-chevron-right'></i>
+                </a>
+                <a className='btn_shadow' href={props.liveSite} target="_blank">
                   VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                </button>
+                </a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>
