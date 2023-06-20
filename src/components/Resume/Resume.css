@@ -41,19 +41,11 @@
   .Resume .content-section {
     position: relative;
   }
-  .Resume .left {
+  .Resume .left{
     position: relative;
   }
-  .Resume .left::after {
-    content: "";
-    position: absolute;
-    top: 16%;
-    left: 0;
-    height: 118vh;
-    width: 5px;
-    background: #d9dee2;
-    z-index: -2;
-  }
+
+
   .Resume .box::after {
     content: "";
     position: absolute;
