@@ -3,7 +3,7 @@ const Portfolio_data = [
     id: 7,
     category: "website",
     totalLike: "690",
-    title: "E Commerce",
+    title: "E-Commerce",
     image: "./image/portfolio-07.png",
     gitHub: "https://github.com/islam-khalil0/E-Commerce/tree/master",
     liveSite: "https://shoppingcartx.netlify.app/",
@@ -27,6 +27,15 @@ const Portfolio_data = [
     liveSite: "https://photoshop-woad.vercel.app/",
   },
   {
+    id: 2,
+    category: "Website",
+    totalLike: "750",
+    title: "Mobile application website",
+    image: "./image/portfolio-02.jpg",
+    gitHub: "https://github.com/islam-khalil0/mobile-app-website",
+    liveSite: "https://mobile-app0.netlify.app/",
+  },
+  {
     id: 10,
     category: "website",
     totalLike: "670",
@@ -44,7 +53,15 @@ const Portfolio_data = [
     gitHub: "https://github.com/islam-khalil0/website_architectural",
     liveSite: "https://islam-khalil0.github.io/website_architectural/",
   },
-
+  {
+    id: 6,
+    category: "Website",
+    totalLike: "690",
+    title: "CRUDS Project",
+    image: "./image/portfolio-06.jpg",
+    gitHub: "https://github.com/islam-khalil0/cruds-project-",
+    liveSite: "https://islam-khalil0.github.io/cruds-project-/",
+  },
   {
     id: 3,
     category: "Website",
@@ -71,24 +88,6 @@ const Portfolio_data = [
     image: "./image/portfolio-05.jpg",
     gitHub: "https://github.com/islam-khalil0/courses-website",
     liveSite: "https://islam-khalil0.github.io/courses-website/",
-  },
-  {
-    id: 6,
-    category: "Website",
-    totalLike: "690",
-    title: "CRUDS Project",
-    image: "./image/portfolio-06.jpg",
-    gitHub: "https://github.com/islam-khalil0/cruds-project-",
-    liveSite: "https://islam-khalil0.github.io/cruds-project-/",
-  },
-  {
-    id: 2,
-    category: "Website",
-    totalLike: "750",
-    title: "Mobile application website",
-    image: "./image/portfolio-02.jpg",
-    gitHub: "https://github.com/islam-khalil0/Mobile-application-website",
-    liveSite: "https://islam-khalil0.github.io/Mobile-application-website/",
   },
 ];
 

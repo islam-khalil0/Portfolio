@@ -60,8 +60,8 @@ const Contact = () => {
       <section className="Contact" id="contact">
         <div className="container top">
           <div className="heading text-center">
-            <h4 style={{fontSize:'.8rem'}}>CONTACT</h4>
-            <h1 style={{fontSize:'2rem'}}>Contact With Me</h1>
+            <h4 style={{ fontSize: ".8rem" }}>CONTACT</h4>
+            <h1 style={{ fontSize: "2rem" }}>Contact With Me</h1>
           </div>
 
           <div className="content d_flex">
@@ -72,12 +72,7 @@ const Contact = () => {
                 </div>
                 <div className="details">
                   <h1>nice to meet you</h1>
-                 
-                  <p>
-                    Connect with me via and
-                    call in to my account.
-                  </p>{" "}
-                  <br />
+                  <p>Connect with me via and call in to my account.</p> <br />
                   <p>Phone: +201123526875</p>
                   <p>Email: eslamkhalil851@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
@@ -102,7 +97,7 @@ const Contact = () => {
                   <div className="input row">
                     <span>YOUR NAME</span>
                     <input
-                    style={{borderRadius:'.5rem'}}
+                      style={{ borderRadius: ".5rem" }}
                       type="text"
                       name="fullname"
                       value={data.fullname}
@@ -112,7 +107,7 @@ const Contact = () => {
                   <div className="input row">
                     <span>PHONE NUMBER </span>
                     <input
-                    style={{borderRadius:'.5rem'}}
+                      style={{ borderRadius: ".5rem" }}
                       type="number"
                       name="phone"
                       value={data.phone}
@@ -123,7 +118,7 @@ const Contact = () => {
                 <div className="input">
                   <span>EMAIL </span>
                   <input
-                  style={{borderRadius:'.5rem'}}
+                    style={{ borderRadius: ".5rem" }}
                     type="email"
                     name="email"
                     value={data.email}
@@ -133,7 +128,7 @@ const Contact = () => {
                 <div className="input">
                   <span>SUBJECT </span>
                   <input
-                  style={{borderRadius:'.5rem'}}
+                    style={{ borderRadius: ".5rem" }}
                     type="text"
                     name="subject"
                     value={data.subject}
@@ -143,7 +138,7 @@ const Contact = () => {
                 <div className="input">
                   <span>YOUR MESSAGE </span>
                   <textarea
-                  style={{borderRadius:'.5rem'}}
+                    style={{ borderRadius: ".5rem" }}
                     cols="30"
                     rows="10"
                     name="message"

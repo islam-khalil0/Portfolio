@@ -38,11 +38,12 @@ const Home = () => {
             </h2>
 
             <p style={{ fontSize: ".9rem" }}>
-              As a frontend developer with +1 years of experience, I am skilled
-              in HTML, CSS, and JavaScript, redux. I have extensive experience
-              working with modern frontend frameworks such as React , and I am
-              comfortable with version control tools such as Git , know data
-              structures and algorithms I have logical thinking
+              As a frontend developer with 2 years of experience, I am skilled
+              in HTML, CSS, and JavaScript. I have extensive experience working
+              with modern frontend frameworks such as React and NEXT, and I have
+              experience working with State management such as redux and context
+              API, In addition to that, I deal with RESTfull API easily, and I
+              am comfortable with version control tools such as Git.
             </p>
 
             <div className="hero_btn d_flex">
@@ -52,10 +53,18 @@ const Home = () => {
                   className="button"
                   style={{ display: "flex", flexDirection: "row" }}
                 >
-                  <a className="btn_shadow" href="https://github.com/islam-khalil0" target="_blank">
+                  <a
+                    className="btn_shadow"
+                    href="https://github.com/islam-khalil0"
+                    target="_blank"
+                  >
                     <i class="fab fa-github"></i>
                   </a>
-                  <a className="btn_shadow" href="https://www.linkedin.com/in/eslam-khalil-532b05236" target="_blank">
+                  <a
+                    className="btn_shadow"
+                    href="https://www.linkedin.com/in/eslam-khalil-532b05236"
+                    target="_blank"
+                  >
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                   <a className="btn_shadow" href="/#">
